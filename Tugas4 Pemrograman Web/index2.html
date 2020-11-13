@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+        <marquee tittle="Tugas 2"><h1><tittle>Form Pendaftaran Membership EXO-L Se-Indonesia</tittle></h1></marquee>
+    </center>
+
+     <!-- Ini Link CSS-->
+     <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <div class= loginbox>
+    <form action="daftar.php" method="POST">
+    <fieldset>
+      <legend>
+        <h2>Akun</h2>
+      </legend>
+      <table>
+        <tr>
+            <td><label for="email">Email (*)</label></td>
+            <td><input type="text" name="email" id="email" required></td>
+        </tr>
+        <tr>
+              <td><label for="pass">Password (*)</label></td>
+              <td><input type="password" name="password" id="pass" required></td>
+        </tr>
+        <tr>
+          <td><label for="pass">Konfirmasi Password (*)</label></td>
+          <td><input type="password" name="password" id="pass" required></td>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+
+  <form action="daftar.php" method="POST">
+    <fieldset>
+      <legend>
+        <h2>Data</h2>
+      </legend>
+      <table>
+        <tr>
+              <td><label for="name">Nama (*)</label> </td>
+              <td><input type="text" name="name" id="name" required></td>
+        </tr>
+        <tr>
+              <td><label for="tlahir">Tempat Lahir (*)</label> </td>
+              <td><input type="text" name="tlahir" id="tlahir" required></td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir(*)  &nbsp &nbsp</td>
+          <td><input type="Date" required></td>
+        </tr>
+      </table>
+      <p>
+          <label for="jk">Gender</label>
+        <br>
+          <input type="radio" name="gender" id="jk">
+          <label for="jk">Pria</label>
+        </br>
+          <input type="radio" name="gender" id="jk">
+          <label for="jk">Wanita</label>
+      </p>
+      <p>
+        <label for="member">Member Favorit(*)</label><br>
+        <input type="checkbox" name="member1">Suho</input><br>
+        <input type="checkbox" name="member2">Chanyeol</input><br>
+        <input type="checkbox" name="member3">D.O</input><br>
+        <input type="checkbox" name="member4">Kai</input><br>
+        <input type="checkbox" name="member6">Sehun</input><br>
+        <input type="checkbox" name="member5">Xiumin</input><br>
+        <input type="checkbox" name="member4">Lay</input><br>
+        <input type="checkbox" name="member4">Chen</input><br>
+    </p>
+      <p>
+          <label for="Hobi">Hobi</label><br>
+          <input type="checkbox" name="Hobi1">Menonton Drakor</input><br>
+          <input type="checkbox" name="Hobi2">Mennton Konser</input><br>
+          <input type="checkbox" name="Hobi3">Menyanyi</input><br>
+          <input type="checkbox" name="Hobi4">Mengoleksi Foto Idol</input><br>
+          <input type="checkbox" name="Hobi6">Berburu Makanan Korea</input><br>
+          <input type="checkbox" name="Hobi5">Travelling</input><br>
+      </p>
+      <p>
+            <label for="dom">Kota Asal</label><br>
+            <select name="domisili" id="dom" required>
+            <option><i>Pilih Kota</i></option>
+              <option value="kota">Nangroe Aceh Darussalam</option>
+              <option value="kota">Sumatra Utara</option>
+              <option value="kota">Sumatra Barat</option>
+              <option value="kota">Riau</option>
+              <option value="kota">Kep. Riau</option>
+              <option value="kota">Jambi</option>
+              <option value="kota">Bengkulu</option>
+              <option value="kota">Sumatra Selatan</option>
+              <option value="kota">Bangka Belitung</option>
+              <option value="kota">Lampung</option>
+              <option value="kota">Banten</option>
+              <option value="kota">DKI Jakarta</option>
+              <option value="kota">Jawa Barat</option>
+              <option value="kota">Jawa Tengah</option>
+              <option value="kota">Jawa Timur</option>
+              <option value="kota">DI Yogyakarta</option>
+              <option value="kota">Bali</option>
+              <option value="kota">Nusa Tenggara Barat</option>
+              <option value="kota">Nusa Tenggara Timur</option>
+              <option value="kota">Bali</option>
+              <option value="kota">Kalimantan Barat</option>
+              <option value="kota">Kalimantan Selatan</option>
+              <option value="kota">Kalimantan Tengah</option>
+              <option value="kota">Kalimantan Timur</option>
+              <option value="kota">Kalimantan Utara</option>
+              <option value="kota">Gorontalo</option>
+              <option value="kota">Sulawesi Barat</option>
+              <option value="kota">Sulawesi Selatan</option>
+              <option value="kota">Kalimantan Tenggara</option>
+              <option value="kota">Kalimantan Tengah</option>
+              <option value="kota">Kalimantan Utara</option>
+              <option value="kota">Maluku</option>
+              <option value="kota">Kaluku Utara</option>
+              <option value="kota">Papua</option>
+              <option value="kota">Papua Barat</option>
+            </select>
+      </p>
+      <p>
+      <form>
+        <label for="phone">No. WA (*)</label><br>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </form>
+      </p>
+      <p>
+        <label for="choice">Sudah Pernah menonton Konser</label>
+      <br>
+        <input type="radio" name="choice" id="choice">
+        <label for="jk">Sudah</label>
+      </br>
+        <input type="radio" name="choice" id="choice">
+        <label for="jk">Belum</label>
+      </p>
+      <p>
+      <tr>
+        <td><label for="times">Berapa Kali</label></td><br>
+        <td><input type="text" name="times" id="times" required></td>
+      </tr>
+      </p>
+      <p>
+      <tr>
+        <td>Alasan Ingin Bergabung (*)</td><br>
+        <td><textarea cols="50" rows="5" ></textarea></td>
+      </tr>
+      </p>
+    </br>
+    </br>
+    <P>
+        <input type="submit" value="Daftar"> &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+        <button type="reset">reset</button>
+    </P>
+    </fieldset>
+
+  </form>
+  </div>
+</body>
+</html>

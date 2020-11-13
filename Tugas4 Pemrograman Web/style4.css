@@ -1,0 +1,47 @@
+
+.navbar
+{
+    height: 500 px;
+    width: 500 px;
+}
+.carousel-item
+{
+    height: 550px;
+}
+
+body
+{
+    background-image: url('btg.jpeg');
+}
+
+.card-body
+{
+    background-image: url('bg1.jpg');
+    background-size: 60%;
+    background-position-x: 50%;
+    background-position-y: 60%;
+
+}
+
+.card-title
+{
+    color: #FFFFFF;
+}
+
+.card-text
+{
+    color: #f9e5bc; 
+}
+
+.card
+{
+
+}
+
+footer
+{
+    padding: 10px 0;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}

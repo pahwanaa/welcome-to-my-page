@@ -1,0 +1,24 @@
+.choice
+{
+    background-image: url('lightstick.jpg');
+    background-size: 200%;
+    background-position-x: 50%;
+    background-position-y: 45%;
+    color: palevioletred;
+    color: ho;
+}
+.navbar
+{
+    height: 500 px;
+    width: 500 px;
+}
+.carousel-item
+{
+    height: 550px;
+}
+
+body
+{
+    background-image: url('btg.jpeg');
+    background-size: 500%;
+}

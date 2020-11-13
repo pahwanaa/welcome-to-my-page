@@ -1,0 +1,41 @@
+legend
+{
+    color: goldenrod;
+    font-size: 150%;
+    text-shadow: 2px 2px 5px grey;
+    margin-right: 200;
+    margin-left: 200;
+    font-family: sams-serif;
+}
+body
+{
+    background-image:url("exo2.gif");
+    color: #ff829a;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    font-size: 100%
+}
+div
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 370px;
+    margin-left: 370px;
+}
+marquee
+{
+    color: #356e9a;
+    text-shadow: 10px 10px 20px #846c98;
+    margin-right: 200;
+    margin-left: 200;
+    font-family: sams-serif;
+    font-size: 300%
+    
+}
+fieldset
+{
+    background-image:url("cc.jpg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
